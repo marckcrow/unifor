@@ -1,0 +1,23 @@
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+footer a img {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+footer a img:hover {
+    filter: grayscale(0%);
+}
