@@ -88,7 +88,7 @@ async function connect(){
 }
 
 const app = express();         
-const port = 3000; //porta padrão
+const port = 3001; //porta padrão
 
 app.use(require('cors')());
 app.use(express.urlencoded({ extended: true }));
