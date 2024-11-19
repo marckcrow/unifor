@@ -43,7 +43,7 @@
                 senha: document.getElementById('senha').value
             };
 
-            axios.post('http://localhost:3000/login', credenciais)
+            axios.post('http://localhost:3001/login', credenciais)
                 .then(response => {
                     window.location.href = 'admin.html'; // Redireciona para a página administrativa
                 })

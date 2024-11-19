@@ -63,7 +63,7 @@
         });
 
         // Carregar Estatísticas
-        axios.get('http://localhost:3000/estatisticas')
+        axios.get('http://localhost:3001/estatisticas')
             .then(response => {
                 document.getElementById('totalParticipantes').textContent = response.data.participantes;
                 document.getElementById('totalInteresses').textContent = response.data.areasInteresse;

@@ -38,7 +38,7 @@
 
         // Carregar participantes
         function carregarParticipantes() {
-            axios.get('http://localhost:3000/participantes')
+            axios.get('http://localhost:3001/participantes')
                 .then(response => {
                     listaParticipantes.innerHTML = response.data.map(participante => `
                         <tr>
@@ -59,7 +59,7 @@
 
         // Excluir participante
         function excluirParticipante(id) {
-            axios.delete(`http://localhost:3000/participantes/${id}`)
+            axios.delete(`http://localhost:3001/participantes/${id}`)
                 .then(response => {
                     carregarParticipantes();
                 })

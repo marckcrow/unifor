@@ -53,7 +53,7 @@
                 areaInteresse: document.getElementById('areaInteresse').value
             };
 
-            axios.post('http://localhost:3000/participantes', dados)
+            axios.post('http://localhost:3001/participantes', dados)
                 .then(response => {
                     feedback.innerHTML = `<div class="alert alert-success">Cadastro realizado com sucesso!</div>`;
                     form.reset();
