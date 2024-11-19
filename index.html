@@ -75,3 +75,16 @@
     </script>
 </body>
 </html>
+
+
+<script>
+    const toggleButton = document.createElement('button');
+    toggleButton.className = 'theme-toggle';
+    toggleButton.innerHTML = '🌓'; // Ícone para alternar tema
+    document.body.appendChild(toggleButton);
+
+    toggleButton.addEventListener('click', () => {
+        const isDark = document.body.classList.toggle('dark-theme');
+        document.body.classList.toggle('light-theme', !isDark);
+    });
+</script>
