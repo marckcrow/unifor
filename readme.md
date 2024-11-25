@@ -32,8 +32,17 @@ Este repositório contém projetos, atividades e materiais relacionados à Unive
 
 ## 🛠️ Tecnologias
 
-- **Linguagens**: Especifique aqui as linguagens de programação utilizadas.
-- **Ferramentas e Frameworks**: Liste ferramentas ou bibliotecas utilizadas.
+- **Linguagens**: JavaScript : Utilizado tanto no front-end quanto no back-end para criação de uma aplicação dinâmica e interativa.
+- **Ferramentas e Frameworks**: 
+Node.js : Plataforma utilizada no desenvolvimento do back-end, permitindo criar APIs escaláveis ​​e eficientes.
+Express.js : Framework para Node.js, responsável por gerenciar rotas, middlewares e requisições HTTP.
+Bootstrap : Framework CSS usado no front-end para estilização e criação de uma interface responsiva e moderna.
+MongoDB : Banco de dados NoSQL utilizado para armazenamento de informações dos usuários e participantes.
+Axios : Biblioteca JavaScript para realizar requisições HTTP de forma simplificada, integrada com o front-end.
+JSON Web Token (JWT) : utilizado para autenticação e controle de acesso seguro no sistema.
+Postman/Insomnia : Ferramentas utilizadas para testar e documentar as requisições das APIs.
+MongoDB Atlas : Serviço na nuvem usado para gerenciar o banco de dados MongoDB.
+MongoDB Compass : Interface gráfica para monitoramento e gestão do banco de dados.
 
 ## 🤝 Contribuições
 
