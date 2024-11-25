@@ -143,11 +143,11 @@
   "unpkg": "dist/axios.min.js",
   "typings": "./index.d.ts",
   "dependencies": {
-  "axios": "^1.4.0",
-  "follow-redirects": "^1.15.9",
-  "form-data": "^4.0.0",
-  "proxy-from-env": "^1.1.0"
-},
+    "axios": "file:",
+    "follow-redirects": "^1.15.9",
+    "form-data": "^4.0.0",
+    "proxy-from-env": "^1.1.0"
+  },
   "bundlesize": [
     {
       "path": "./dist/axios.min.js",
