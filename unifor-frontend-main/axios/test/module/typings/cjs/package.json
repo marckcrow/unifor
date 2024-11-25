@@ -12,8 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.11.3",
-    "axios": "file:../../../..",
-    "commonjs-typings-test": "file:"
+    "axios": "file:../../../.."
   },
   "devDependencies": {
     "typescript": "^4.9.4"

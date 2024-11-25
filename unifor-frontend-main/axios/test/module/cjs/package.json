@@ -10,7 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "file:../../..",
-    "cjs-entrypoint-test": "file:"
+    "axios": "file:../../.."
   }
 }
