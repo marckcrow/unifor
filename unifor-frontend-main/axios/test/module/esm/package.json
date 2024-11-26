@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "file:../../.."
+    "axios": "file:../../..",
+    "esm-entrypoint-test": "file:"
   }
 }

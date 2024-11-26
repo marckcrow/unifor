@@ -12,7 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.11.3",
-    "axios": "file:../../.."
+    "axios": "file:../../..",
+    "ts-entrypoint-test": "file:"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
